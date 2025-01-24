@@ -1,0 +1,15 @@
+{
+    "name": "source",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "install:all": "npm install --prefix client && pip install -r server/requirements.txt",
+        "start:client": "npm start --prefix client",
+        "start:server": "uvicorn app.main:app --reload",
+        "start:all": "concurrently \"npm run start:client\" \"npm run start:server\""
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.0"
+    },
+    "dependencies": {}
+}
