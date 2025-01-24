@@ -1,0 +1,67 @@
+.commitmentsTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 0.95rem;
+    text-align: left;
+
+    thead {
+        background-color: #e6e6e6;
+        font-size: 12px;
+        font-weight: bold;
+        color: #777;
+        text-transform: uppercase;
+
+        th {
+            padding: 10px 12px;
+            border-bottom: 2px solid #ccc;
+        }
+    }
+
+    tbody {
+        tr {
+            &:hover {
+                background-color: #f9f9f9;
+                cursor: pointer;
+            }
+
+            &:nth-child(even) {
+                background-color: #f8f8f8;
+            }
+
+            td {
+                padding: 10px 12px;
+                border-bottom: 1px solid #ddd;
+                color: #444;
+            }
+        }
+    }
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+
+    button {
+        padding: 10px 20px;
+        font-size: 14px;
+        color: white;
+        background-color: #5e5ee7;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-transform: capitalize;
+        min-width: 150px;
+
+        &:hover {
+            background-color: #4b4bd0;
+        }
+
+        &.active {
+            background-color: #3838c5;
+            font-weight: bold;
+        }
+    }
+}

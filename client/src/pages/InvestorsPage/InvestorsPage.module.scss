@@ -1,0 +1,47 @@
+.linkButton {
+    cursor: pointer;
+    text-decoration: none;
+    color: #5e5ee7;
+    font-weight: bold;
+    background-color: unset;
+    border: none;
+
+    &:hover {
+        color: #4b4bd0;
+    }
+}
+
+.paginationControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 10px;
+}
+
+.paginationButton {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #5e5ee7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+    min-width: 95px;
+
+    &:hover {
+        background-color: #4b4bd0;
+    }
+
+    &.active {
+        background-color: #3838c5;
+        font-weight: bold;
+    }
+
+    &:disabled {
+        background-color: #d6d6d6 !important;
+        cursor: not-allowed;
+    }
+    
+}
