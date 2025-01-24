@@ -86,7 +86,7 @@ This project satisfies the following technical requirements:
 ## Screenshots
 
 ### 1. Investor List
-![Investor List](investor-page.png)
+![Investor List](investors-page.png)
 
 ### 2. Commitments Page
 ![Commitments Page](commitments-page.png)
