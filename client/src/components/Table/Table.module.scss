@@ -1,0 +1,41 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+
+    thead {
+        background-color: #f8f8f8;
+    }
+
+    th {
+        padding: 15px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #555;
+        border-bottom: 2px solid #ddd;
+        text-transform: uppercase;
+    }
+
+    td {
+        padding: 15px;
+        color: #333;
+        font-size: 14px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    tbody tr:hover {
+        background-color: #f3f3f3;
+    }
+
+    .clickableRow {
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: #5e5ee7;
+        font-weight: bold;
+    }
+}
