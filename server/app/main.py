@@ -4,7 +4,7 @@ from app.routes.investors import router as investors_router
 from app.routes.commitments import router as commitments_router
 from app.utils.data_loader import load_data_async
 from app.config.settings import settings
-from app.middlewares.errorMiddleware import add_error_handling
+from app.middlewares.error_middleware import add_error_handling
 from app.shared_state import DataStore
 
 # Initialize FastAPI app
